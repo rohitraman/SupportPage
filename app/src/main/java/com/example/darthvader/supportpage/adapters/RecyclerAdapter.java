@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.darthvader.supportpage.R;
+import com.example.darthvader.supportpage.activities.ChatActivity;
 import com.example.darthvader.supportpage.activities.ExpandableListActivity;
 import com.example.darthvader.supportpage.activities.FAQsActivity;
 import com.example.darthvader.supportpage.activities.PrivacyPolicyActivity;
@@ -57,6 +58,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
                 }
                 else if(i==2){
                     Intent intent=new Intent(context,FAQsActivity.class);
+                    context.startActivity(intent);
+                }
+                else if(i==4)
+                {
+                    Intent intent=new Intent(context,ChatActivity.class);
                     context.startActivity(intent);
                 }
             }

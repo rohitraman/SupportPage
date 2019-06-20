@@ -1,16 +1,14 @@
 package com.example.darthvader.supportpage.activities;
 
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.ExpandableListView;
 
 import com.example.darthvader.supportpage.R;
 import com.example.darthvader.supportpage.adapters.FAQsRecyclerAdapter;
-import com.example.darthvader.supportpage.adapters.TermsAndConditionsAdapter;
 import com.example.darthvader.supportpage.data.FAQsData;
-import com.example.darthvader.supportpage.data.TermsAndConditions;
 
 import java.util.ArrayList;
 import java.util.HashMap;
